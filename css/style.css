@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital@0;1&display=swap");
+
+/* Basic Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+/* Utilities */
+.container {
+  width: 61%;
+  margin: 0 auto;
+}
+
+.text-primary {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #562eff;
+}
+hr {
+  margin-top: 3rem;
+}
+/* Header Section */
+#header {
+  background-color: #562eff;
+  padding: 2rem 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+.logo-box img {
+  width: 40px;
+}
+.logo-box span {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-left: 1.6rem;
+}
+.link-box-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-box ul {
+  list-style: none;
+}
+.link-box ul li {
+  padding: 0 1.8rem;
+}
+.link-box ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* Main Section - Top player */
+
+#main-content {
+  background-color: #f3f1fe;
+  padding: 2rem;
+}
+
+#main-content .contents {
+  background-color: #fff;
+  padding: 3.3rem;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2rem;
+  margin-top: 4rem;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.player p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 1.8rem;
+}
+
+.player img {
+  width: 56px;
+}
+/* Main Section - Top blog */
+.top-blog h2 {
+  margin: 3.3rem 0;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 2.6rem;
+  grid-column-gap: 2rem;
+}
+.blog-thumbnail img {
+  width: 177px;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog-description {
+  margin-left: 1.6rem;
+}
+.blog-description h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.blog-description span,
+.blog-description p {
+  font-size: 1.6rem;
+}
+
+.blog-description p {
+  color: #9f9f9f;
+  margin-top: 0.6rem;
+}
